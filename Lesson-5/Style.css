@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #828282;
+    padding: 27px;
+}
+
+.text-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #070707;
+    margin: 0 20px;
+}
+
+.denis-headline {
+    width: 300px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #070707;
+
+    margin: 12px 0 50px 0;
+}
+
+.denis {
+    width:970px;
+}
+
+.bio {
+    width: 100%;
+    background: #F6F6F6;
+    margin-top: -5px;
+    height: 500px;
+}
+
+.bio-headline {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+
+    padding-top: 100px;
+    margin-top: 0;
+}
+
+.bio-cont {
+    margin-top: 50px ;
+}
+
+.bio-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+
+    margin-bottom: 30px;
+}
+
+.skills {
+    height: 564px;
+}
+
+.skills-headline {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+
+    padding: 100px 0 0 0 ;
+    margin: 0;
+}
+
+.skills-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+
+    margin: 20px 0 50px 0;
+}
+
+.skills-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-img {
+    margin: 0 48px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    height: 2268px;
+}
+
+.portfolio-headline {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+
+    padding: 100px 0 50px 0;
+    margin: 0;
+}
+
+.portfolio-figure {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.portfolio-img {
+    margin-bottom: 40px;
+}
+
+.portfolio-text {
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.contacts {
+    height: 600px;
+}
+
+.contacts-headline {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+
+    margin: 0;
+    padding: 100px 0 20px 0;
+}
+
+.contacts-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+
+    margin-top: 0;
+}
+
+.contacts-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+    background: #070707;
+    border-radius: 22px;
+    border: 0;
+    height: 44px;
+    width: 184px;
+    display: block;
+    padding: 0 16px 0 16px;
+    margin: 60px auto 30px auto;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.media-img {
+    margin: 0 25px
+}
+
+.social-media-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+
+    margin-top: 60px;
+}
+
+a {
+    color: #070707;
+}
