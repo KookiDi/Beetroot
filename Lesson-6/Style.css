@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    background-color: #1b1b32;
+}
+
+fieldset {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 50px auto;
+}
+
+.item {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+legend {
+    font-size: 25px;
+}

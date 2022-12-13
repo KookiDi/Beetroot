@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body>
+<fieldset>
+    <legend>Registration form</legend>
+    <form>
+        <label class="item">Повне ім'я:
+            <input type="text" required>
+        </label>
+
+        <label class="item">Email:
+            <input type="email" required>
+        </label>
+
+        <label class="item">Пароль:
+            <input type="password" required>
+        </label>
+
+        <label class="item">Підтвердіть пароль:
+            <input type="password" required>
+        </label>
+
+        <label class="item">Стать:
+            <label><input class="inline" type="radio" required checked name="radio">Чоловіча</label>
+            <label><input class="inline" type="radio" required name="radio">Жіноча</label>
+        </label>
+
+        <label class="item">Вік:
+            <input type="number" required>
+        </label>
+
+        <label class="item">
+            Курс: <select>
+                    <option>Front-End</option>
+                    <option>Back-End</option>
+                    <option>Project Management</option>
+                    <option>QA Manual</option>
+                  </select>
+        </label>
+
+        <label class="item">Повна адреса:
+            <textarea required></textarea>
+        </label>
+
+        <label class="item"><input class="inline" type="checkbox" required>
+            Я погоджуюсь з обробкою персональних даних
+        </label>
+
+        <div>
+            <button>Очистити форму</button>
+            <button>Зареєструватись</button>
+        </div>
+    </form>
+</fieldset>
+</body>
+</html>
