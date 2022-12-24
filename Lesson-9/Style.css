@@ -1,0 +1,131 @@
+*{transition: all .1s ease-in;}
+
+body {
+    margin:0;
+}
+
+.wrapper {
+   width:70%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.main-header_logo {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+.main-header_logo_text {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #173A56;
+
+    margin-left: 10px;
+}
+
+.main-header_nav {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+.main-header_nav_item {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2F281E;
+    text-decoration: none;
+
+    margin-left: 20px;
+}
+
+.main-header_sign {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    box-sizing: border-box;
+}
+
+.main-header_sign_in {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    margin-right: 32px;
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #FF9900;
+}
+
+.main-header_sign_up {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #FF9900;
+}
+
+.first-screen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.first-screen_item_h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #2F281E;
+
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.first-screen_item_p {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2F281E ;
+
+    margin-bottom: 20px;
+}
+
+.first-screen_item_button {
+    width: 180px;
+    height: 50px;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+}
+
+button:hover {
+    border: 1px solid #BCD0E5;
+    background-color: #FFFFFF;
+    color: #2F281E;
+}
+
+.main-header_nav_item:hover {
+    color: Orange;
+}
