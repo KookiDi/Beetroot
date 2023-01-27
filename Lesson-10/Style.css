@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__text {
+    font-family: Train One, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navigation__item {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C3C3C;
+}
+
+.header__button {
+    width: 130px;
+    height: 42px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3C3C3C;
+    border: 1px solid;
+    background-color: white;
+}
+
+.introduction {
+    background-color: #F6F6F6;
+}
+
+.introduction__main-text {
+    font-family: Lato, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    padding-top: 150px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.introduction__line {
+    width: 45px;
+    height: 4px;
+    background-color: #DDDBDB;
+    margin: 20px auto;
+}
+
+.introduction__text {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3C3C3C;
+}
+
+.employees {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 150px;
+}
+
+.employees__name {
+    display: block;
+    padding-top: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.employees__occupation {
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #646464;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_footer {
+    margin: 40px auto;
+}
+
+.navigation_footer {
+    margin: 25px auto;
+}
+
+.socials {
+    margin: 28px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.hover-employer {
+    display: none;
+    width: 270px;
+    height: 270px;
+    background-color: #18B5DC;
+}
+
+.employees__item:hover .employees__img {
+    display: none;
+}
+
+.employees__item:hover .hover-employer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.navigation__item:hover {
+    color: #18B5DC;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    color: white;
+    background-color: #18B5DC;
+    border: 1px solid #18B5DC;
+    cursor: pointer;
+}
+
+.socials__img:hover {
+    cursor: pointer;
+}
+
+.socials__img:hover .socials__stroke {
+    fill:#18B5DC;
+}
+
+.socials__img:hover .socials__fill {
+    fill: white;
+}
+
+.hover-employer__img:hover {
+    cursor: pointer;
+}
+
+.hover-employer__img:hover .hover-employer__img-bg {
+    fill: white;
+}
+
+.hover-employer__img:hover .hover-employer__img-fill {
+    fill:#18B5DC;
+}
+
+
