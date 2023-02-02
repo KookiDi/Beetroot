@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    max-width: 1170px;
+    min-width: 770px;
+    margin: 120px auto;
+}
+
+.arch__main-text {
+    font-family: "Delius Unicase", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.arch-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px, auto)) ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    max-width: 1170px;
+    min-width: 770px;
+    grid-auto-flow: dense;
+
+    margin-top: 80px;
+}
+
+.item {
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arch-cont__above {
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.arch-cont__sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arch-cont__name {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+}
+
+.arch-cont__date {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgba(224, 224, 224, 1);
+}
+
+
+
+.arch-cont__item1-1 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-1.png");
+    width: 370px;
+    height: 370px;
+}
+
+.arch-cont__item1-2 {
+    grid-column: 2 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-2.png");
+    width: 770px;
+    height: 370px;
+}
+
+.arch-cont__item1-3 {
+    grid-column: 1 / 3;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-3.png");
+    width: 770px;
+    height: 370px;
+}
+
+.arch-cont__item1-4 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-4.png");
+    width: 370px;
+    height: 370px;
+
+}
+
+.arch-cont__item1-5 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-5.png");
+    width: 370px;
+    height: 370px;
+
+}
+
+.arch-cont__item1-6 {
+    grid-column: 2 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph1-6.png");
+    width: 770px;
+    height: 370px;
+}
+
+.life__main-text {
+    font-family: "Delius Unicase",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.life-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px, auto)) ;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 30px;
+    max-width: 1170px;
+    min-width: 770px;
+    max-height: 1570px;
+    grid-auto-flow: dense;
+
+    margin-top: 80px;
+}
+
+.life-cont__item2-1 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-1.png");
+    width: 370px;
+    height: 370px;
+}
+
+.life-cont__item2-2 {
+    grid-column: 2 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-2.png");
+    width: 770px;
+    height: 370px;
+}
+
+.life-cont__item2-3 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-3.png");
+    width: 770px;
+    height: 770px;
+}
+
+.life-cont__item2-4 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-4.png");
+    width: 370px;
+    height: 770px;
+
+}
+
+.life-cont__item2-5 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-6.png");
+    width: 370px;
+    height: 370px;
+
+}
+
+.life-cont__item2-6 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph2-5.png");
+    width: 770px;
+    height: 370px;
+}
+
+.life-cont__above {
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.life-cont__sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.life-cont__name {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+}
+
+.life-cont__date {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgba(224, 224, 224, 1);
+}
+
+.portrait__main-text {
+    font-family: "Delius Unicase",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.portrait-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px, auto));
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    max-width: 1170px;
+    min-width: 770px;
+    grid-auto-flow: dense;
+
+    margin-top: 80px;
+}
+
+.portrait__above {
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.portrait__sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portrait__name {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+}
+
+.portrait__date {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgba(224, 224, 224, 1);
+}
+
+.portrait__item3-1 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-1.png");
+    width: 370px;
+    height: 370px;
+}
+
+.portrait__item3-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-2.png");
+    width: 370px;
+    height: 770px;
+}
+
+.portrait__item3-3 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-3.png");
+    width: 370px;
+    height: 370px;
+}
+
+.portrait__item3-4 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-4.png");
+    width: 370px;
+    height: 370px;
+}
+
+.portrait__item3-5 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-5.png");
+    width: 370px;
+    height: 770px;
+}
+
+.portrait__item3-6 {
+    grid-row: 3 / 5;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-6.png");
+    width: 370px;
+    height: 770px;
+}
+
+.portrait__item3-7 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-7.png");
+    width: 370px;
+    height: 370px;
+}
+
+.portrait__item3-8 {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-8.png");
+    width: 770px;
+    height: 370px;
+}
+
+.portrait__item3-9 {
+    grid-column: 1 / 3;
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-9.png");
+    width: 770px;
+    height: 370px;
+}
+
+.portrait__item3-10 {
+    background: linear-gradient(360deg, #241F24 5%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("images/ph3-10.png");
+    width: 370px;
+    height: 370px;
+}
+
+.item:hover .life-cont__above {
+    visibility: visible;
+}
+
+.item:hover .arch-cont__above {
+    visibility: visible;
+}
+
+.item:hover .portrait__above {
+    visibility: visible;
+}
+
+.item:hover.arch-cont__item1-1 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-1.png");
+}
+
+.item:hover.arch-cont__item1-2 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-2.png");
+}
+
+.item:hover.arch-cont__item1-3 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-3.png");
+}
+
+.item:hover.arch-cont__item1-4 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-4.png");
+}
+
+.item:hover.arch-cont__item1-5 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-5.png");
+}
+
+.item:hover.arch-cont__item1-6 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph1-6.png");
+}
+
+.item:hover.life-cont__item2-1 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-1.png");
+}
+
+.item:hover.life-cont__item2-2 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-2.png");
+}
+
+.item:hover.life-cont__item2-3 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-3.png");
+}
+
+.item:hover.life-cont__item2-4 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-4.png");
+}
+
+.item:hover.life-cont__item2-6 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-5.png");
+}
+
+.item:hover.life-cont__item2-5 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph2-6.png");
+}
+
+.item:hover.portrait__item3-1 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-1.png");
+}
+
+.item:hover.portrait__item3-2 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-2.png");
+}
+
+.item:hover.portrait__item3-3 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-3.png");
+}
+
+.item:hover.portrait__item3-4 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-4.png");
+}
+
+.item:hover.portrait__item3-5 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-5.png");
+}
+
+.item:hover.portrait__item3-6 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-6.png");
+}
+
+.item:hover.portrait__item3-7 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-7.png");
+}
+
+.item:hover.portrait__item3-8 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-8.png");
+}
+
+
+.item:hover.portrait__item3-9 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-9.png");
+}
+
+.item:hover.portrait__item3-10 {
+    background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%), url("images/ph3-10.png");
+}
+
+a {
+    cursor: pointer;
+}
+
