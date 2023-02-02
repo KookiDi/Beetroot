@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 13px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.header__eng {
+    font-family: Tourney,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+
+    border:none;
+    background-color: white;
+    margin-right: 50px;
+}
+
+.nav__doc {
+    font-family: Staatliches,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.nav__slash {
+    font-family: Staatliches,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    margin: 0 5px;
+}
+
+.nav__use {
+    font-family: Staatliches,sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.nav {
+    margin-right: 601px;
+}
+
+.under-line {
+    text-decoration: underline;
+}
+
+/*Introduction*/
+
+.introduction {
+    margin-top: 70px;
+}
+
+.title {
+    position: relative;
+}
+
+.title__headline {
+    font-family: Francois One,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.title__chap1 {
+    font-family: Farro,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+.introduction__text {
+    font-family: "PT Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+/*Core*/
+
+.title__chap2 {
+    font-family: Farro,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+
+    position: absolute;
+    top: 0;
+    left: 313px;
+}
+
+.core__text {
+    font-family: "PT Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+/*React*/
+
+.title__chap3 {
+    font-family: Farro,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+
+    position: absolute;
+    top: 0;
+    left: 370px;
+}
+
+.react__text1,.react__text2,.react__text3,.react__text4,.react__text5,.react__text6,.react__text7 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.code {
+    background-color: gainsboro;
+}
+
+/*Handling*/
+
+.handling {
+    margin-top: 70px;
+}
+
+.title__chap4 {
+    font-family: Farro,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+
+    position: absolute;
+    top: 0;
+    left: 361px;
+}
+
+.handling__text1 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.handling__text2 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
