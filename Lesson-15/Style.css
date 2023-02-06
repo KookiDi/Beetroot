@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 1170px;
+    margin: 55px auto;
+    gap: 30px;
+}
+
+/*Account*/
+
+.account {
+    width: 570px;
+    height: 590px;
+    background: white;
+    border-radius: 6px;
+    padding: 34px 35px 0 35px;
+}
+
+.headline {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.name {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    width: 245px;
+    color: rgba(84, 84, 84, 1);
+
+}
+
+.input {
+    height: 38px;
+    width: 245px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.holder {
+    display: flex;
+    gap: 12px;
+    margin-top:20px;
+}
+
+/*Email*/
+
+.name-email {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    width: 502px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgba(84, 84, 84, 1);
+}
+
+.input-email {
+    height: 38px;
+    width: 502px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.email-desc {
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.10000000149011612px;
+    color: rgba(150, 150, 150, 1);
+
+    margin-top: 7px;
+}
+/**/
+/*Radio*/
+
+.holder-radio {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.name-radio {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    width: 62px;
+    height: 22px;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    color: rgba(84, 84, 84, 1);
+}
+
+.radio {
+    appearance: none;
+    position: absolute;
+}
+
+.name-radio:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-color:white;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.name-radio:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+
+    background-color:white;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    z-index: 2;
+}
+
+.radio:checked + .name-radio:before {
+    background-color:#007BFF;
+}
+/**/
+/*Select*/
+
+.name-select {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    width: 245px;
+    position: relative;
+    color: rgba(84, 84, 84, 1);
+}
+
+.select-input {
+    height: 38px;
+    width: 245px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    cursor: pointer;
+    margin-top: 7px;
+
+    appearance: none;
+}
+
+.name-select:before {
+    content: "Select";
+    display: block;
+    position: absolute;
+    top: 38px;
+    left: 11px;
+    color: #9d9c9c;;
+}
+
+.name-select:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 13px;
+    background-image: url("arrows.svg");
+    position: absolute;
+    top: 42px;
+    left: 220px;
+    cursor: pointer;
+    pointer-events: none;
+}
+/**/
+.sign-btn {
+    height: 38px;
+    width: 500px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    background-color: rgba(0, 123, 255, 1);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sign-desc {
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: rgba(150, 150, 150, 1);
+
+
+    margin-top: 22px;
+}
+
+.line {
+    width: 500px;
+    margin-top: 20px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-bottom: none;
+}
+
+.holder-log {
+    display: flex;
+    gap: 20px;
+    width: 177px;
+    margin:20px auto;
+}
+
+.log-text {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.20000000298023224px;
+    color: rgba(84, 84, 84, 1);
+
+}
+
+.log-link {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.10000000149011612px;
+    text-decoration: none;
+    color: rgba(0, 123, 255, 1);
+
+}
+
+/*Profile*/
+
+.profile {
+    width: 570px;
+    height: 590px;
+    background: white;
+    border-radius: 6px;
+    padding: 34px 35px 0 35px;
+}
+
+.prof-holder {
+    display: flex;
+    align-items: center;
+}
+
+/*File*/
+
+.file-input {
+    display: none;
+}
+
+.buttons-hold {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 1px;
+}
+
+.file-name {
+    display: block;
+    height: 30px;
+    width: 138px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.file-name:after {
+    content: "";
+    width: 14px;
+    height: 12px;
+    background-image: url("Icon1.svg");
+    position: absolute;
+    top: 9px;
+    left: 114px;
+}
+/**/
+.delete-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 6px;
+    background-color: white;
+    background-image: url("Icon2.svg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    cursor: pointer;
+}
+
+.file-input__desc {
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.10000000149011612px;
+    color: rgba(150, 150, 150, 1);
+}
+
+.file-hold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.avatar {
+    margin: 20px 20px 20px 0;
+}
+
+.big-holder {
+   display: flex;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-number {
+    height: 38px;
+    width: 245px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-update {
+    height: 38px;
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    background-color: rgba(0, 123, 255, 1);
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sign-desc__link {
+    text-decoration: none;
+    color: rgba(0, 123, 255, 1);
+}
+
+.input:focus {
+    border: 2px solid deepskyblue;
+}
+
+.input-number:focus {
+    border: 2px solid deepskyblue;
+}
+
+.input-email:focus {
+    border: 2px solid deepskyblue;
+}
+
+.select-input:focus {
+    border: 2px solid deepskyblue;
+}
+
+
