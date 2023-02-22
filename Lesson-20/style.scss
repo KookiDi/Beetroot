@@ -1,0 +1,366 @@
+/*Normalize*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/**/
+
+/*Base*/
+  .wrapper {
+    width: 300/320*100%;
+    margin: 0 auto;
+  }
+/**/
+
+/*Header-Mobile*/
+  .header {
+    height: 60px;
+  }
+
+  .logo-link {
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.5em;
+  }
+/**/
+
+/*Screen-Mobile*/
+  .screen {
+
+    &__headline {
+      font-family: 'Red Hat Display',sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: left;
+    }
+  }
+
+  .img {
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+
+  .picture {
+    width: 100%;
+    max-height: 300px;
+  }
+/**/
+
+/*Description-Mobile*/
+  .description {
+    &__headline {
+      font-family: 'Red Hat Display',sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 43px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      margin-top: 70px;
+    }
+
+    &__first-text,&__second-text {
+      font-family: Lato,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      margin: 40px auto;
+    }
+
+    &__second-text {
+      margin: 0 auto 70px auto;
+    }
+  }
+/**/
+
+/*First-Mobile*/
+  .first {
+    &__headline {
+      font-family: 'Red Hat Display',sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 43px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+
+    &__first-text,&__second-text {
+      font-family: Lato,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      margin: 15px auto;
+    }
+
+    &__second-text {
+      margin: 40px auto 70px auto;
+    }
+  }
+/**/
+
+/*Footer-Mobile*/
+.footer {
+  height: 400px;
+  background-color: #F4F4F4;
+  padding: 50px 0 30px 0;
+  margin-top: 70px;
+
+  &__headline {
+    font-family: 'Red Hat Display',sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+
+  &__number {
+    font-family: Lato,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    display: block;
+    width: 151px;
+    margin:20px auto 20px auto;
+  }
+
+  &__email {
+    font-family: Lato,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    display: block;
+    width: 227px;
+    margin: 0 auto;
+  }
+
+  &__copyright {
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+}
+
+.social-holder {
+  display: flex;
+  gap: 23px;
+  width: 269px;
+  margin: 40px auto;
+}
+/**/
+
+@media (min-width: 768px) {
+  /*Base*/
+  .wrapper {
+    width: 700/768*100%;
+  }
+
+  .picture {
+    max-height: 380px;
+  }
+  /**/
+
+  /*First-tablet*/
+  .screen {
+    margin-top: 50px;
+
+    &__headline {
+      font-size: 33px;
+    }
+  }
+  .img {
+    margin: 50px auto 20px auto;
+  }
+  /**/
+
+  /*Description-tablet*/
+  .description {
+    &__headline {
+      font-size: 28px;
+    }
+    &__first-text,&__second-text {
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      margin: 50px auto 40px auto;
+    }
+
+    &__second-text {
+      margin: 0 auto 70px auto;
+    }
+  }
+  /**/
+
+  /*First-Tablet*/
+  .first {
+    &__headline {
+      font-family: 'Red Hat Display',sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 43px;
+      letter-spacing: 0.1em;
+
+    }
+
+    &__first-text,&__second-text {
+      font-family: Lato,sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      margin: 15px auto;
+    }
+
+    &__second-text {
+      margin: 40px auto 70px auto;
+    }
+
+    .footer {
+
+      &__headline {
+        font-size: 48px;
+      }
+
+      &__number {
+        font-size: 16px;
+      }
+
+      &__email {
+        font-size: 16px;
+      }
+
+      &__copyright {
+        font-size: 12px;
+      }
+    }
+  }
+  /**/
+}
+
+@media (min-width: 1440px) {
+  /*Base*/
+  .wrapper {
+    width: 1170/1440*100%;
+  }
+
+  .picture {
+    max-height: 500px;
+  }
+
+  /**/
+
+  /*First-tablet*/
+  .screen {
+    margin-top: 50px;
+
+    &__headline {
+      font-size: 33px;
+    }
+  }
+  .img {
+    margin: 50px auto 20px auto;
+  }
+  /**/
+
+  /*Description-tablet*/
+  .description {
+    &__headline {
+      font-size: 28px;
+    }
+
+    &__first-text, &__second-text {
+      font-family: Lato, sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      width: 573px;
+      margin: 50px auto 40px 0;
+    }
+
+    &__second-text {
+      margin: 0 auto 70px 0;
+    }
+  }
+  /**/
+
+  /*First-Tablet*/
+  .first {
+    &__headline {
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 43px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+
+    &__first-text, &__second-text {
+      font-family: Lato, sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #565656;
+      margin: 15px auto;
+    }
+
+    &__second-text {
+      margin: 40px auto 70px auto;
+    }
+  }
+
+  .foot-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 1165px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .footer__number {
+    margin: 30px 0;
+  }
+
+  .footer__email {
+    margin: 14px 0;
+  }
+
+  .footer {
+    padding-top: 70px;
+    height: 300px;
+    padding-bottom: 30px;
+  }
+
+  .social-holder {
+    margin: 0;
+  }
+
+  .footer__copyright {
+    margin-top: 25px;
+  }
+}
