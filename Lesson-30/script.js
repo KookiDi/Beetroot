@@ -16,10 +16,9 @@ let chocolate = +Math.floor(pocketMoney / chocolatePrice);
 alert(`Ви можете купити ${chocolate} шоколадки`);
 alert(`Ваша решта ${pocketMoney - chocolate * chocolatePrice}`)
 //--------------------------------------------------------------
-let three_digit_number = prompt('Вкажіть трьохзначне число');
-let y = 0;
-for(; three_digit_number; three_digit_number = Math.floor(three_digit_number / 10)) {
-    y *= 10;
-    y += three_digit_number % 10;
-}
-console.log(y);
+let num = prompt('Вкажіть трьохзначне число');
+const ones = num % 10;
+const tens = Math.floor(num / 10) % 10;
+const hundreds = Math.floor(num / 100);
+
+alert(ones * 100 + tens * 10 + hundreds)
