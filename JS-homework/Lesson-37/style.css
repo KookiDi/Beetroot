@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85.7142857143%;
+  margin: 0 auto;
+  height: 80px;
+}
+.header .logo {
+  width: 182px;
+  height: 34px;
+}
+.header .navigation {
+  display: flex;
+}
+.header .navigation .navigation-item {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 28px 15px;
+}
+.header .icons-holder {
+  display: flex;
+  gap: 30px;
+}
+.header .icons-holder .search {
+  width: 36px;
+  height: 36px;
+}
+.header .icons-holder .prof {
+  width: 36px;
+  height: 36px;
+}
+
+.swiper .swiper-slide {
+  height: 700px;
+}
+
+.swiper-slide1 {
+  background-image: url("img/picture1.jpg");
+}
+
+.swiper-slide2 {
+  background-image: url("img/picture2.jpg");
+}
+
+.swiper-slide3 {
+  background-image: url("img/picture3.jpg");
+}
+
+.swiper-wrapper {
+  height: 700px;
+}
+
+.swiper .swiper-pagination {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-bottom: 42px;
+}
+
+.swiper .swiper-pagination-bullet {
+  background: rgba(248, 241, 234, 0.6980392157);
+  height: 20px;
+  width: 20px;
+  opacity: 1;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  height: 20px;
+  width: 20px;
+  background-color: #F16A50;
+}
+
+.slide-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  color: #F8F1EA;
+  text-transform: uppercase;
+  width: 400px;
+  display: block;
+  text-align: center;
+  margin: 120px 100px 0 auto;
+}
+
+.slide-text3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  color: #F8F1EA;
+  text-transform: uppercase;
+  width: 350px;
+  display: block;
+  text-align: center;
+  margin: 120px 100px 0 auto;
+}
+
+.slide-btn {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 52px;
+  width: 227px;
+  border: 2px solid #F8F1EA;
+  background-color: transparent;
+  margin: 50px 180px 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.slide-btn3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 52px;
+  width: 227px;
+  border: 2px solid #F8F1EA;
+  background-color: transparent;
+  margin: 50px 156px 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.products-headline {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.swiper2 {
+  height: 440px;
+  width: 1241px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.swiper2 .swiper-slide {
+  height: 437px;
+  width: 224px !important;
+}
+
+div.swiper-button-next:after {
+  content: none;
+}
+
+div.swiper-button-prev:after {
+  content: none;
+}
+
+.swiper-button-next svg {
+  transform: scaleX(-1);
+}
+
+.swiper-button-next:hover svg path,
+.swiper-button-prev:hover svg path {
+  fill: #F16A50;
+}
+
+.swiper2 .swiper-button-next {
+  top: 129%;
+  right: 38px;
+}
+
+.swiper2 .swiper-button-prev {
+  top: 129%;
+  left: 36px;
+}
+
+.stock {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F8F1EA;
+  background-color: #F16A50;
+  height: 20px;
+  width: 60px;
+  padding: 4px;
+}
+
+.sold {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #F8F1EA;
+  height: 20px;
+  width: 60px;
+  padding: 4px;
+}
+
+.guitar {
+  display: block;
+  margin: 0 auto;
+}
+
+.guitar-desc {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.guitar-price {
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-btn {
+  border-color: #000000;
+  color: #000000;
+  margin: 60px auto 70px auto;
+}
+
+.partners1 {
+  background-color: #F8F1EA;
+  padding: 70px 0;
+}
+
+.partners {
+  background: rgba(0, 0, 0, 0);
+}
+
+.partners-headline {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  margin: 0 auto 50px auto;
+}
+
+.swiper3 {
+  width: 1186px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.swiper3 .swiper-button-next {
+  top: 197%;
+  right: 38px;
+}
+
+.swiper3 .swiper-button-prev {
+  top: 197%;
+  left: 36px;
+}
+
+/*# sourceMappingURL=style.css.map */
