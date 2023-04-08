@@ -1,0 +1,26 @@
+.blog {
+    width: 810px;
+    height: 426px;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 17px 26px 0 26px;
+}
+
+.blog-headline {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+}
+
+.hold {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 15px;
+}
+
+.blog-item {
+    width: 759px;
+    height: 70px;
+    background-color: rgba(249, 215, 215, 1);
+}

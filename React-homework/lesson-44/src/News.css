@@ -1,0 +1,26 @@
+.news {
+    width: 300px;
+    height: 429px;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 17px 26px 0 26px;
+}
+
+.news-headline {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+}
+
+.hold-news {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 15px;
+}
+
+.news-item {
+    width: 247px;
+    height: 110px;
+    background-color: rgba(189, 205, 246, 1);
+}
