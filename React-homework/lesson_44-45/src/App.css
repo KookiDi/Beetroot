@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.holder {
+  display: flex;
+  gap: 67px;
+  width: 1177px;
+  margin: 24px auto;
+}
