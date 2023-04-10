@@ -1,0 +1,37 @@
+
+.info-blocks {
+    display: flex;
+    gap: 50px;
+    margin: 40px 0 0 30px;
+}
+.comment {
+    width: 50px;
+    height: 60px;
+}
+.comm-wrap {
+    width: 60px;
+    height: 70px;
+    background-color: rgba(26, 255, 0, 1);
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+}
+.info-block {
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 0 13px 23px 13px;
+    position: relative;
+}
+.inf-values {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 131px;
+    margin: 10px 0 0 auto;
+}
+.inf-values__name {
+    color: gray;
+}

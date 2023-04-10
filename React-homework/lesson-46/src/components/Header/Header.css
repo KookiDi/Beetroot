@@ -1,0 +1,38 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+    background-color: #3574fd;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.hamburger__item {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: white;
+}
+.logo {
+    color: white;
+    font-size: 20px;
+}
+.user-holder__prof {
+    width: 20px;
+    height: 20px;
+}
+.user-holder__reset {
+    width: 15px;
+    height: 15px;
+}
+.user-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    align-items: center;
+}

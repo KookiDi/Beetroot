@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body {
+    background-color: rgb(248, 248, 248);
+}
+.holder {
+    display: flex;
+}

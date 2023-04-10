@@ -1,0 +1,15 @@
+.dash {
+    width: 20px;
+    height: 20xp;
+}
+.aside-list__item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.aside {
+    margin: 40px  ;
+}
+.list-item {
+    font-size: 17px;
+}
