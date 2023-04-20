@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Beetroot/Projects/exam/static/css/main.943e6564.css",
+    "main.js": "/Beetroot/Projects/exam/static/js/main.6283a84b.js",
+    "static/js/787.b5aa3df0.chunk.js": "/Beetroot/Projects/exam/static/js/787.b5aa3df0.chunk.js",
+    "static/media/marvel.jpg": "/Beetroot/Projects/exam/static/media/marvel.7a7854574b93b74260eb.jpg",
+    "index.html": "/Beetroot/Projects/exam/index.html",
+    "main.943e6564.css.map": "/Beetroot/Projects/exam/static/css/main.943e6564.css.map",
+    "main.6283a84b.js.map": "/Beetroot/Projects/exam/static/js/main.6283a84b.js.map",
+    "787.b5aa3df0.chunk.js.map": "/Beetroot/Projects/exam/static/js/787.b5aa3df0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943e6564.css",
+    "static/js/main.6283a84b.js"
+  ]
+}
