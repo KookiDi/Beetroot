@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Beetroot/static/css/main.04ac844f.css",
-    "main.js": "/Beetroot/static/js/main.c373a1b5.js",
-    "static/js/787.b5aa3df0.chunk.js": "/Beetroot/static/js/787.b5aa3df0.chunk.js",
-    "static/media/marvel.jpg": "/Beetroot/static/media/marvel.7a7854574b93b74260eb.jpg",
-    "index.html": "/Beetroot/index.html",
-    "main.04ac844f.css.map": "/Beetroot/static/css/main.04ac844f.css.map",
-    "main.c373a1b5.js.map": "/Beetroot/static/js/main.c373a1b5.js.map",
-    "787.b5aa3df0.chunk.js.map": "/Beetroot/static/js/787.b5aa3df0.chunk.js.map"
+    "main.css": "/static/css/main.3c94e7ac.css",
+    "main.js": "/static/js/main.c23fee15.js",
+    "static/js/787.b5aa3df0.chunk.js": "/static/js/787.b5aa3df0.chunk.js",
+    "static/media/marvel.jpg": "/static/media/marvel.7a7854574b93b74260eb.jpg",
+    "index.html": "/index.html",
+    "main.3c94e7ac.css.map": "/static/css/main.3c94e7ac.css.map",
+    "main.c23fee15.js.map": "/static/js/main.c23fee15.js.map",
+    "787.b5aa3df0.chunk.js.map": "/static/js/787.b5aa3df0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ac844f.css",
-    "static/js/main.c373a1b5.js"
+    "static/css/main.3c94e7ac.css",
+    "static/js/main.c23fee15.js"
   ]
 }
